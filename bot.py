@@ -56,6 +56,7 @@ PROFILE = load_profile()
 
 # ---------------- Menu ----------------
 
+
 def main_menu():
     keyboard = [
         [
@@ -71,7 +72,35 @@ def main_menu():
             InlineKeyboardButton("📬 Contact", callback_data="contact"),
         ],
     ]
+
+    contact = PROFILE.get("contact", {})
+
+    github_url = contact.get("github", "").strip()
+    portfolio_url = contact.get("portfolio", "").strip()
+
+    links = []
+
+    if github_url.startswith("https://github.com/"):
+        links.append(
+            InlineKeyboardButton(
+                "🐙 GitHub Profile",
+                url=github_url
+            )
+        )
+
+    if portfolio_url.startswith("https://"):
+        links.append(
+            InlineKeyboardButton(
+                "🌐 Portfolio Website",
+                url=portfolio_url
+            )
+        )
+
+    if links:
+        keyboard.append(links)
+
     return InlineKeyboardMarkup(keyboard)
+
 
 
 # ---------------- Profile answers ----------------
