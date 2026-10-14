@@ -1,0 +1,66 @@
+{
+  "name": "Borif Gido",
+  "title": "Software Engineering Student",
+  "bio": "I am a Software Engineering student at Bule Hora University. I enjoy learning programming, building useful software projects, and exploring new technologies.",
+  "education": {
+    "university": "Bule Hora University",
+    "field": "Software Engineering",
+    "level": "Undergraduate student"
+  },
+  "skills": [
+    "Python",
+    "JavaScript",
+    "Java",
+    "HTML",
+    "CSS",
+    "C++",
+    "Database Management",
+     "Node.js",
+    "React",
+    "Git and GitHub",  
+    "Problem Solving",
+    "Data Structures and Algorithms",
+    "Web Development"
+  ],
+  "projects": [
+    {
+      "name": "Student GPA Management System",
+      "description": "A system concept for managing student information, courses, grades, and GPA calculations."
+    },
+    {
+      "name": "Student Attendance Management System",
+      "description": "A proposed system for recording and managing student attendance."
+    },
+    {
+      "name": "Student Grade Calculator",
+      "description": "A program for calculating total marks, averages, grades, and pass or fail results."
+    },
+    {
+      "name": "Online Quiz System",
+      "description": "A project for organizing online quizzes and displaying results."
+    },
+    {
+      "name": "Student Management System",
+      "description": "A software project for organizing student records."
+    }
+  ],
+  "interests": [
+    "Software Engineering",
+    "Web Development",
+    "Cybersecurity",
+    "Artificial Intelligence",
+    "Freelancing",
+    "Photo and Video Editing"
+  ],
+  "goals": [
+    "Improve my programming skills",
+    "Build professional software projects",
+    "Develop a career in technology",
+    "Create educational technology content"
+  ],
+  "contact": {
+    "telegram": "@MaadiiB9",
+    "github": "https://github.com/hacki-302",
+    "portfolio": "https://hacki-302.github.io/MyPortfolio/"
+  }
+}
