@@ -189,56 +189,98 @@ def normalize(text):
     return re.sub(r"[^a-z0-9+#. ]", " ", text.lower()).strip()
 
 
+
+
 def answer_question(question):
     text = normalize(question)
 
-    # Check longer, more specific topics first.
-    if any(word in text for word in [
-        "contact", "github", "telegram", "website", "portfolio link"
+    # Match complete words and phrases instead of accidental substrings.
+    def matches(words):
+        return any(
+            re.search(r"\b" + re.escape(word) + r"\b", text)
+            for word in words
+        )
+
+    # 1. Contact: explicit contact intent comes first.
+    if matches([
+        "contact", "contact information", "reach borif",
+        "reach you", "email", "telegram", "portfolio",
+        "social media", "website", "github profile",
+        "github link", "how can i find you"
     ]):
         return get_section("contact")
 
-    if any(word in text for word in [
-        "project", "projects", "what have you built",
-        "what are you building", "systems"
+    # 2. Projects
+    if matches([
+        "project", "projects", "built", "building",
+        "developed", "created", "applications", "apps",
+        "software system", "systems", "what have you made"
     ]):
         return get_section("projects")
 
-    if any(word in text for word in [
-        "skill", "skills", "programming language",
-        "languages", "what can you do", "what do you know"
+    # 3. Skills and technologies
+    if matches([
+        "skill", "skills", "programming", "language",
+        "languages", "technology", "technologies",
+        "tech stack", "tools", "coding", "framework",
+        "frameworks", "python", "javascript", "java",
+        "html", "css", "c++", "node", "react",
+        "database", "git", "github", "problem solving",
+        "data structures", "what can you do",
+        "what do you know", "what are you learning"
     ]):
         return get_section("skills")
 
-    if any(word in text for word in [
-        "university", "education", "degree", "study",
-        "studying", "student", "department"
+    # 4. Education
+    if matches([
+        "university", "college", "education", "degree",
+        "study", "studying", "student", "department",
+        "academic", "course", "field of study",
+        "where do you study", "what do you study"
     ]):
         return get_section("education")
 
-    if any(word in text for word in [
-        "goal", "goals", "future", "ambition", "career", "dream"
+    # 5. Career goals
+    if matches([
+        "goal", "goals", "future", "ambition", "career",
+        "dream", "aspiration", "plans", "want to become",
+        "career plan", "future plan"
     ]):
         return get_section("goals")
 
-    if any(word in text for word in [
-        "interest", "interests", "hobby", "hobbies", "passion"
+    # 6. Interests
+    if matches([
+        "interest", "interests", "hobby", "hobbies",
+        "passion", "like doing", "enjoy doing",
+        "favorite activity"
     ]):
         return get_section("interests")
 
-    if any(word in text for word in [
-        "who are you", "about you", "about me", "introduce",
-        "yourself", "your name", "who is borif"
+    # 7. Personal introduction
+    if matches([
+        "who are you", "who is borif", "who is borif gido",
+        "about you", "about me", "about borif",
+        "introduce", "yourself", "your name",
+        "tell me about borif", "tell me about yourself"
     ]):
         return get_section("about")
 
-    if "name" in text:
+    # 8. Name questions
+    if matches(["name"]):
         return f"My name is {PROFILE['name']}."
 
+    # 9. Helpful fallback
     return (
-        "🤔 I couldn't match that question to my profile.\n\n"
-        "Try asking about my education, skills, projects, goals, "
-        "interests, or contact links. You can also use the buttons below."
+        "🤔 I couldn't find a matching answer in my profile yet.\n\n"
+        "You can ask me:\n"
+        "👤 Who is Borif Gido?\n"
+        "🎓 Where does he study?\n"
+        "💻 What technologies is he learning?\n"
+        "🚀 What projects has he built?\n"
+        "🎯 What are his career goals?\n"
+        "❤️ What are his interests?\n"
+        "📬 How can I contact him?\n\n"
+        "You can also use the menu buttons below."
     )
 
 
