@@ -57,6 +57,7 @@ PROFILE = load_profile()
 # ---------------- Menu ----------------
 
 
+
 def main_menu():
     keyboard = [
         [
@@ -100,7 +101,6 @@ def main_menu():
         keyboard.append(links)
 
     return InlineKeyboardMarkup(keyboard)
-
 
 
 # ---------------- Profile answers ----------------
