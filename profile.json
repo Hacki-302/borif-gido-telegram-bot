@@ -1,66 +1,111 @@
+
 {
   "name": "Borif Gido",
-  "title": "Software Engineering Student",
-  "bio": "I am a Software Engineering student at Bule Hora University. I enjoy learning programming, building useful software projects, and exploring new technologies.",
+  "title": "Software Engineering Student | Aspiring Full-Stack Developer, Cybersecurity Enthusiast and AI Engineer",
+  "bio": "I am a Software Engineering student at Bule Hora University. I enjoy learning programming, building useful software projects, exploring new technologies, and developing practical solutions to real-world problems. My interests include full-stack development, cybersecurity, artificial intelligence, and creative digital media.",
+
   "education": {
     "university": "Bule Hora University",
     "field": "Software Engineering",
-    "level": "Undergraduate student"
+    "level": "Third-year undergraduate student"
   },
+
   "skills": [
     "Python",
     "JavaScript",
     "Java",
-    "HTML",
-    "CSS",
+    "TypeScript",
     "C++",
-    "Database Management",
-     "Node.js",
+    "HTML5",
+    "CSS3",
     "React",
-    "Git and GitHub",  
+    "Node.js",
+    "Database Management",
+    "SQL",
+    "Git and GitHub",
     "Problem Solving",
     "Data Structures and Algorithms",
-    "Web Development"
+    "Web Development",
+    "Responsive Web Design",
+    "Video Editing"
   ],
+
   "projects": [
     {
-      "name": "Student GPA Management System",
-      "description": "A system concept for managing student information, courses, grades, and GPA calculations."
+      "name": "GitHub User Search",
+      "description": "A web application that allows users to search for GitHub profiles and explore user information using the GitHub API.",
+      "technologies": [
+        "React",
+        "JavaScript",
+        "Vite",
+        "GitHub API"
+      ],
+      "github": "https://github.com/Hacki-302/github-user-search",
+      "status": "Completed"
     },
     {
-      "name": "Student Attendance Management System",
-      "description": "A proposed system for recording and managing student attendance."
+      "name": "Number Guessing Game Pro",
+      "description": "An interactive number guessing game with a modern user interface, game logic, and limited attempts.",
+      "technologies": [
+        "React",
+        "JavaScript",
+        "Tailwind CSS",
+        "Vite"
+      ],
+      "github": "https://github.com/Hacki-302/number-guessing-game-pro",
+      "status": "Completed"
     },
     {
-      "name": "Student Grade Calculator",
-      "description": "A program for calculating total marks, averages, grades, and pass or fail results."
+      "name": "Telegram Portfolio Bot",
+      "description": "A Python-powered Telegram bot that introduces Borif, answers questions about his profile, and provides access to his projects and online portfolio.",
+      "technologies": [
+        "Python",
+        "Telegram Bot API",
+        "python-telegram-bot",
+        "FadeHost"
+      ],
+      "github": "https://github.com/Hacki-302/borif-gido-telegram-bot",
+      "status": "Completed"
     },
     {
-      "name": "Online Quiz System",
-      "description": "A project for organizing online quizzes and displaying results."
-    },
-    {
-      "name": "Student Management System",
-      "description": "A software project for organizing student records."
+      "name": "3D Login Page",
+      "description": "A modern and responsive login page featuring a 3D-inspired visual design and interactive user interface.",
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Responsive Design"
+      ],
+      "github": "https://github.com/Hacki-302"
+      ,
+      "status": "Completed"
     }
   ],
+
   "interests": [
     "Software Engineering",
-    "Web Development",
+    "Full-Stack Web Development",
     "Cybersecurity",
     "Artificial Intelligence",
     "Freelancing",
-    "Photo and Video Editing"
+    "Photo and Video Editing",
+    "Technology and Innovation"
   ],
+
   "goals": [
-    "Improve my programming skills",
-    "Build professional software projects",
-    "Develop a career in technology",
-    "Create educational technology content"
+    "Improve my programming and problem-solving skills",
+    "Become a professional full-stack developer",
+    "Develop knowledge and practical skills in cybersecurity",
+    "Explore artificial intelligence and machine learning",
+    "Build professional and useful software projects",
+    "Develop a successful career in technology",
+    "Create educational technology content",
+    "Improve English communication skills"
   ],
+
   "contact": {
     "telegram": "https://t.me/MaadiiB9",
-    "github": "https://github.com/hacki-302",
-    "portfolio": "https://hacki-302.github.io/MyPortfolio/"
+    "github": "https://github.com/Hacki-302",
+    "portfolio": "https://hacki-302.github.io/my-portfolio/"
   }
 }
