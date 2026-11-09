@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/Hacki-302/borif-gido-telegram-bot">GitHub Repository</a> •
-  <a href="https://hacki-302.github.io/MyPortfolio/">Personal Portfolio</a> •
+  <a href="https://hacki-302.github.io/my-portfolio/">Personal Portfolio</a> •
   <a href="https://t.me/MaadiiB9">Telegram Contact</a>
 </p>
 
