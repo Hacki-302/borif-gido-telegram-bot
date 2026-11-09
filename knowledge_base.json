@@ -1,0 +1,186 @@
+
+{
+  "programming": [
+    {
+      "keywords": ["what is programming", "programming definition", "programming"],
+      "question": "What is Programming?",
+      "answer": "Programming is the process of writing instructions that tell a computer how to perform specific tasks. Common programming languages include Python, JavaScript, Java, and C++."
+    },
+    {
+      "keywords": ["what is python", "python language", "python"],
+      "question": "What is Python?",
+      "answer": "Python is a high-level, general-purpose programming language known for its simple syntax and readability. It is used in web development, automation, data science, artificial intelligence, and cybersecurity."
+    },
+    {
+      "keywords": ["what is javascript", "javascript language", "javascript"],
+      "question": "What is JavaScript?",
+      "answer": "JavaScript is a programming language used to create interactive websites and web applications. It can also be used for backend development with Node.js."
+    },
+    {
+      "keywords": ["what is typescript", "typescript language", "typescript"],
+      "question": "What is TypeScript?",
+      "answer": "TypeScript is a programming language built on JavaScript that adds static typing. It helps developers write more maintainable and reliable applications."
+    },
+    {
+      "keywords": ["what is java", "java programming language"],
+      "question": "What is Java?",
+      "answer": "Java is a high-level, object-oriented programming language. It is commonly used for enterprise software, backend systems, Android development, and large-scale applications."
+    },
+    {
+      "keywords": ["what is c++", "c++ programming"],
+      "question": "What is C++?",
+      "answer": "C++ is a general-purpose programming language that supports procedural, object-oriented, and generic programming. It is widely used in game development, system software, and performance-intensive applications."
+    },
+    {
+      "keywords": ["what is a variable", "variable in programming", "variables"],
+      "question": "What is a Variable?",
+      "answer": "A variable is a named storage location used by a program to hold data. Its value can be accessed and, depending on the language, changed while the program runs."
+    },
+    {
+      "keywords": ["what is a function", "function in programming", "functions"],
+      "question": "What is a Function?",
+      "answer": "A function is a reusable block of code designed to perform a particular task. Functions help organize programs, reduce repeated code, and make software easier to maintain."
+    },
+    {
+      "keywords": ["what is object oriented programming", "oop", "object oriented programming"],
+      "question": "What is Object-Oriented Programming?",
+      "answer": "Object-Oriented Programming (OOP) is a programming approach based on objects and classes. Its four major principles are encapsulation, inheritance, polymorphism, and abstraction."
+    },
+    {
+      "keywords": ["what is an api", "api definition", "application programming interface"],
+      "question": "What is an API?",
+      "answer": "An API (Application Programming Interface) is a set of rules that allows different software applications to communicate and exchange information."
+    }
+  ],
+  "web_development": [
+    {
+      "keywords": ["what is html", "html definition", "html"],
+      "question": "What is HTML?",
+      "answer": "HTML stands for HyperText Markup Language. It provides the structure and content of web pages using elements such as headings, paragraphs, images, and links."
+    },
+    {
+      "keywords": ["what is css", "css definition", "css"],
+      "question": "What is CSS?",
+      "answer": "CSS stands for Cascading Style Sheets. It controls the appearance, layout, colors, spacing, and responsiveness of web pages."
+    },
+    {
+      "keywords": ["what is react", "react library", "react"],
+      "question": "What is React?",
+      "answer": "React is a JavaScript library for building user interfaces. It uses reusable components to help developers create interactive applications."
+    },
+    {
+      "keywords": ["what is node.js", "what is nodejs", "node.js", "nodejs"],
+      "question": "What is Node.js?",
+      "answer": "Node.js is a JavaScript runtime environment that allows developers to execute JavaScript outside the browser, especially for backend development."
+    },
+    {
+      "keywords": ["what is frontend development", "frontend development", "front end development"],
+      "question": "What is Frontend Development?",
+      "answer": "Frontend development is the process of building the part of a website or application that users see and interact with. Common technologies include HTML, CSS, JavaScript, and React."
+    },
+    {
+      "keywords": ["what is backend development", "backend development", "back end development"],
+      "question": "What is Backend Development?",
+      "answer": "Backend development focuses on the server-side logic of an application, including APIs, authentication, databases, and business logic. Common technologies include Node.js, Python, Java, and PostgreSQL."
+    },
+    {
+      "keywords": ["what is full stack development", "full stack development", "fullstack development"],
+      "question": "What is Full-Stack Development?",
+      "answer": "Full-stack development involves working on both frontend and backend parts of an application. A full-stack developer can build user interfaces, server-side functionality, APIs, and database integrations."
+    },
+    {
+      "keywords": ["what is a framework", "framework definition", "frameworks"],
+      "question": "What is a Framework?",
+      "answer": "A framework is a reusable structure that provides tools, libraries, and conventions for building software applications more efficiently."
+    },
+    {
+      "keywords": ["what is rest api", "restful api", "rest api"],
+      "question": "What is a REST API?",
+      "answer": "A REST API is an application programming interface that follows REST architectural principles. It commonly uses HTTP methods such as GET, POST, PUT, PATCH, and DELETE to work with resources."
+    },
+    {
+      "keywords": ["what is responsive web design", "responsive design", "responsive website"],
+      "question": "What is Responsive Web Design?",
+      "answer": "Responsive web design is an approach to building websites that adapt their layout and appearance to different screen sizes, including phones, tablets, and desktop computers."
+    }
+  ],
+  "computer_science": [
+    {
+      "keywords": ["what is a database", "what is database", "database definition", "database"],
+      "question": "What is a Database?",
+      "answer": "A database is an organized collection of information that can be stored, managed, retrieved, and updated. Examples include PostgreSQL, MySQL, and MongoDB."
+    },
+    {
+      "keywords": ["what is an algorithm", "what is algorithm", "algorithm definition", "algorithm", "algorithms"],
+      "question": "What is an Algorithm?",
+      "answer": "An algorithm is a finite sequence of well-defined instructions used to solve a problem or complete a task."
+    },
+    {
+      "keywords": ["what is a data structure", "what is data structure", "data structures", "data structure"],
+      "question": "What is a Data Structure?",
+      "answer": "A data structure is a way of organizing and storing data so it can be accessed and modified efficiently. Examples include arrays, linked lists, stacks, queues, trees, and graphs."
+    },
+    {
+      "keywords": ["what is an array", "array in programming", "arrays"],
+      "question": "What is an Array?",
+      "answer": "An array is a data structure that stores multiple elements, usually of the same type, in an ordered collection. Elements can be accessed using their indexes."
+    },
+    {
+      "keywords": ["what is a stack", "stack data structure", "stacks"],
+      "question": "What is a Stack?",
+      "answer": "A stack is a linear data structure that follows the Last In, First Out (LIFO) principle. The most recently added element is the first one removed."
+    },
+    {
+      "keywords": ["what is a queue", "queue data structure", "queues"],
+      "question": "What is a Queue?",
+      "answer": "A queue is a linear data structure that follows the First In, First Out (FIFO) principle. The first element added is the first one removed."
+    },
+    {
+      "keywords": ["what is sql", "sql definition", "sql"],
+      "question": "What is SQL?",
+      "answer": "SQL stands for Structured Query Language. It is used to create, retrieve, update, and manage data in relational databases."
+    },
+    {
+      "keywords": ["what is postgresql", "postgresql database", "postgres"],
+      "question": "What is PostgreSQL?",
+      "answer": "PostgreSQL is a powerful open-source relational database management system. It supports SQL, transactions, data integrity, and advanced database features."
+    },
+    {
+      "keywords": ["what is an operating system", "operating system definition", "operating systems"],
+      "question": "What is an Operating System?",
+      "answer": "An operating system is system software that manages computer hardware and software resources. Examples include Windows, Linux, macOS, and Android."
+    }
+  ],
+  "technology": [
+    {
+      "keywords": ["what is artificial intelligence", "what is ai", "artificial intelligence", "ai"],
+      "question": "What is Artificial Intelligence?",
+      "answer": "Artificial Intelligence (AI) is a field of computer science focused on building systems that perform tasks associated with human intelligence, such as learning, reasoning, and understanding language."
+    },
+    {
+      "keywords": ["what is machine learning", "machine learning definition", "machine learning"],
+      "question": "What is Machine Learning?",
+      "answer": "Machine Learning is a branch of artificial intelligence that enables computers to learn patterns from data and make predictions or decisions without being explicitly programmed for every task."
+    },
+    {
+      "keywords": ["what is cybersecurity", "cybersecurity definition", "cybersecurity"],
+      "question": "What is Cybersecurity?",
+      "answer": "Cybersecurity is the practice of protecting computers, networks, applications, and data from unauthorized access, attacks, and digital threats."
+    },
+    {
+      "keywords": ["what is github", "github definition", "github"],
+      "question": "What is GitHub?",
+      "answer": "GitHub is a platform for hosting Git repositories. Developers use it to store code, track changes, collaborate, and manage software projects."
+    },
+    {
+      "keywords": ["what is git", "git version control", "git"],
+      "question": "What is Git?",
+      "answer": "Git is a distributed version control system that helps developers track changes in source code, manage project history, and collaborate with others."
+    },
+    {
+      "keywords": ["what is cloud computing", "cloud computing definition", "cloud computing"],
+      "question": "What is Cloud Computing?",
+      "answer": "Cloud computing is the delivery of computing services such as servers, storage, databases, and software over the internet."
+    }
+  ]
+}
